@@ -1,0 +1,54 @@
+/* 
+
+Project Name: Meg Schneider 
+Client: myself
+Author: Meg Schneider | www.meg-schneider.com  
+Developed @ One Month in NYC 
+
+*/
+
+body {
+	background: url('../images/taco.jpg');
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Oswald', sans-serif;
+}
+
+#container {
+	background: #563B6D;
+	width: 450px;
+	color: #E9F1CD;
+	padding: 15px;
+	opacity: 0.8;
+}
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 80px;
+}
+
+h2 {
+	font: 'Oswald', sans-serif;
+	background: #A72E67;
+	font-size: 40px;
+	color: #B1D7BF;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	padding: 8px;
+}
+
+a {
+	color: #7E8AA5;
+	text-decoration: none;
+}
